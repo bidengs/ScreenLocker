@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 繁體中文（台灣）。app_name / device_admin_label 固定為 "Screen Locker"，此處不宣告。 -->
+<resources>
+    <!-- 懸浮視窗前景服務 -->
+    <string name="overlay_channel_name">懸浮視窗鎖屏服務</string>
+    <string name="overlay_channel_description">讓懸浮按鈕常駐畫面，隨時一鍵鎖屏</string>
+    <string name="overlay_notification_title">鎖屏按鈕已啟用</string>
+    <string name="overlay_notification_text">點按懸浮按鈕即可立即鎖屏</string>
+
+    <!-- 裝置管理員 -->
+    <string name="device_admin_description">管理鎖屏功能，保護您的裝置安全</string>
+    <string name="admin_request_explanation">ScreenLocker 需要裝置管理員權限才能呼叫系統鎖屏介面</string>
+    <string name="admin_enabled_toast">ScreenLocker 裝置管理員已啟用</string>
+    <string name="admin_disabled_toast">ScreenLocker 裝置管理員已停用</string>
+
+    <!-- 主畫面:標題與分區 -->
+    <string name="section_permissions">權限</string>
+    <string name="section_how_to">使用方式</string>
+    <string name="section_theme">外觀</string>
+    <string name="section_language">語言</string>
+
+    <!-- 主畫面:外觀(按鈕底色 + 介面主題色) -->
+    <string name="theme_card_title">按鈕與主題色</string>
+    <string name="theme_card_hint">同時改變懸浮按鈕底色與介面配色</string>
+
+    <!-- 主畫面:懸浮按鈕狀態卡 -->
+    <string name="overlay_card_title">懸浮鎖屏按鈕</string>
+    <string name="overlay_state_running">已啟用，輕觸懸浮按鈕即可鎖屏</string>
+    <string name="overlay_state_ready">已就緒，開啟開關即可啟用</string>
+    <string name="overlay_state_blocked">需先完成下方權限授權</string>
+    <string name="overlay_hint_blocked">完成下方兩項授權後，開關才可使用</string>
+
+    <!-- 主畫面:權限項 -->
+    <string name="perm_overlay_title">懸浮視窗權限</string>
+    <string name="perm_overlay_desc">允許按鈕顯示在其他應用程式上方</string>
+    <string name="perm_admin_title">裝置管理員</string>
+    <string name="perm_admin_desc">允許應用程式呼叫系統鎖屏介面</string>
+    <string name="perm_granted">已授權</string>
+    <string name="perm_action_grant">前往授權</string>
+
+    <!-- 主畫面:使用步驟 -->
+    <string name="tip_step_1">授予懸浮視窗權限，按鈕才能顯示在其他應用程式之上</string>
+    <string name="tip_step_2">啟用裝置管理員，應用程式才有權呼叫系統鎖屏</string>
+    <string name="tip_step_3">開啟上方開關，懸浮按鈕將常駐畫面，輕觸即可鎖屏</string>
+
+    <!-- 主畫面:語言切換 -->
+    <string name="language_current">目前語言</string>
+    <string name="language_action_change">變更</string>
+    <string name="language_dialog_title">應用程式語言</string>
+    <string name="language_follow_system">跟隨系統</string>
+
+    <!-- 通用 -->
+    <string name="action_cancel">取消</string>
+
+    <!-- 懸浮視窗提示 -->
+    <string name="lock_failed_no_admin">請先在應用程式內啟用裝置管理員後再鎖屏</string>
+    <string name="lock_failed_generic">鎖屏失敗，請稍後重試</string>
+</resources>

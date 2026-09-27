@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Русский. app_name / device_admin_label всегда "Screen Locker" и здесь не объявляются. -->
+<resources>
+    <!-- Фоновая служба плавающего окна -->
+    <string name="overlay_channel_name">Служба блокировки поверх экрана</string>
+    <string name="overlay_channel_description">Держит плавающую кнопку на экране, чтобы блокировать одним касанием</string>
+    <string name="overlay_notification_title">Кнопка блокировки включена</string>
+    <string name="overlay_notification_text">Нажмите плавающую кнопку, чтобы сразу заблокировать экран</string>
+
+    <!-- Администратор устройства -->
+    <string name="device_admin_description">Управляет блокировкой экрана для защиты устройства</string>
+    <string name="admin_request_explanation">ScreenLocker нужны права администратора устройства для вызова системного API блокировки</string>
+    <string name="admin_enabled_toast">Администратор устройства ScreenLocker активирован</string>
+    <string name="admin_disabled_toast">Администратор устройства ScreenLocker отключён</string>
+
+    <!-- Главный экран: заголовки и разделы -->
+    <string name="section_permissions">Разрешения</string>
+    <string name="section_how_to">Как пользоваться</string>
+    <string name="section_theme">Оформление</string>
+    <string name="section_language">Язык</string>
+
+    <!-- Главный экран: оформление (цвет кнопки и темы) -->
+    <string name="theme_card_title">Цвет кнопки и темы</string>
+    <string name="theme_card_hint">Применяется к плавающей кнопке и всему интерфейсу</string>
+
+    <!-- Главный экран: карточка состояния плавающей кнопки -->
+    <string name="overlay_card_title">Плавающая кнопка блокировки</string>
+    <string name="overlay_state_running">Включено — нажмите плавающую кнопку для блокировки</string>
+    <string name="overlay_state_ready">Готово — включите переключатель</string>
+    <string name="overlay_state_blocked">Сначала выдайте разрешения ниже</string>
+    <string name="overlay_hint_blocked">Переключатель станет доступен после выдачи обоих разрешений</string>
+
+    <!-- Главный экран: разрешения -->
+    <string name="perm_overlay_title">Поверх других приложений</string>
+    <string name="perm_overlay_desc">Позволяет кнопке отображаться поверх других приложений</string>
+    <string name="perm_admin_title">Администратор устройства</string>
+    <string name="perm_admin_desc">Позволяет приложению вызывать системный API блокировки</string>
+    <string name="perm_granted">Разрешено</string>
+    <string name="perm_action_grant">Разрешить</string>
+
+    <!-- Главный экран: шаги использования -->
+    <string name="tip_step_1">Выдайте разрешение на наложение, чтобы кнопка отображалась поверх других приложений</string>
+    <string name="tip_step_2">Активируйте администратора устройства, чтобы приложение могло блокировать экран</string>
+    <string name="tip_step_3">Включите переключатель выше — плавающая кнопка останется на экране, одно касание заблокирует устройство</string>
+
+    <!-- Главный экран: смена языка -->
+    <string name="language_current">Текущий язык</string>
+    <string name="language_action_change">Изменить</string>
+    <string name="language_dialog_title">Язык приложения</string>
+    <string name="language_follow_system">Как в системе</string>
+
+    <!-- Общее -->
+    <string name="action_cancel">Отмена</string>
+
+    <!-- Сообщения плавающего окна -->
+    <string name="lock_failed_no_admin">Сначала активируйте администратора устройства в приложении</string>
+    <string name="lock_failed_generic">Не удалось заблокировать, попробуйте позже</string>
+</resources>

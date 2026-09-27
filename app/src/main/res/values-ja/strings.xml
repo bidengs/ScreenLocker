@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 日本語。app_name / device_admin_label は "Screen Locker" 固定のため宣言しません。 -->
+<resources>
+    <!-- オーバーレイのフォアグラウンドサービス -->
+    <string name="overlay_channel_name">オーバーレイ画面ロックサービス</string>
+    <string name="overlay_channel_description">フローティングボタンを常時表示し、ワンタップで画面をロックできます</string>
+    <string name="overlay_notification_title">ロックボタンが有効です</string>
+    <string name="overlay_notification_text">フローティングボタンをタップするとすぐに画面をロックできます</string>
+
+    <!-- デバイス管理者 -->
+    <string name="device_admin_description">画面ロック機能を管理し、デバイスを安全に保ちます</string>
+    <string name="admin_request_explanation">システムの画面ロック API を呼び出すには、ScreenLocker にデバイス管理者権限が必要です</string>
+    <string name="admin_enabled_toast">ScreenLocker のデバイス管理者が有効になりました</string>
+    <string name="admin_disabled_toast">ScreenLocker のデバイス管理者が無効になりました</string>
+
+    <!-- メイン画面:見出しとセクション -->
+    <string name="section_permissions">権限</string>
+    <string name="section_how_to">使い方</string>
+    <string name="section_theme">外観</string>
+    <string name="section_language">言語</string>
+
+    <!-- メイン画面:外観(ボタンの色 + アプリのテーマ色) -->
+    <string name="theme_card_title">ボタンとテーマの色</string>
+    <string name="theme_card_hint">フローティングボタンと画面全体の配色に反映されます</string>
+
+    <!-- メイン画面:フローティングボタンの状態カード -->
+    <string name="overlay_card_title">フローティングロックボタン</string>
+    <string name="overlay_state_running">有効 — フローティングボタンをタップしてロック</string>
+    <string name="overlay_state_ready">準備完了 — スイッチをオンにすると有効になります</string>
+    <string name="overlay_state_blocked">先に下の権限を許可してください</string>
+    <string name="overlay_hint_blocked">下の2つの権限を許可するとスイッチが使えます</string>
+
+    <!-- メイン画面:権限項目 -->
+    <string name="perm_overlay_title">他のアプリの上に重ねて表示</string>
+    <string name="perm_overlay_desc">ボタンを他のアプリの上に表示できるようにします</string>
+    <string name="perm_admin_title">デバイス管理者</string>
+    <string name="perm_admin_desc">アプリがシステムの画面ロック API を使えるようにします</string>
+    <string name="perm_granted">許可済み</string>
+    <string name="perm_action_grant">許可する</string>
+
+    <!-- メイン画面:使い方の手順 -->
+    <string name="tip_step_1">重ねて表示の権限を許可すると、ボタンが他のアプリの上に表示されます</string>
+    <string name="tip_step_2">デバイス管理者を有効にすると、アプリがシステムの画面ロックを呼び出せます</string>
+    <string name="tip_step_3">上のスイッチをオンにすると、フローティングボタンが常駐し、タップでロックできます</string>
+
+    <!-- メイン画面:言語切り替え -->
+    <string name="language_current">現在の言語</string>
+    <string name="language_action_change">変更</string>
+    <string name="language_dialog_title">アプリの言語</string>
+    <string name="language_follow_system">システムに従う</string>
+
+    <!-- 共通 -->
+    <string name="action_cancel">キャンセル</string>
+
+    <!-- オーバーレイの通知 -->
+    <string name="lock_failed_no_admin">先にアプリ内でデバイス管理者を有効にしてください</string>
+    <string name="lock_failed_generic">画面ロックに失敗しました。しばらくしてからお試しください</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- العربية. يبقى app_name / device_admin_label ثابتًا على "Screen Locker" ولا يُعلن هنا. -->
+<resources>
+    <!-- خدمة النافذة العائمة في المقدمة -->
+    <string name="overlay_channel_name">خدمة قفل الشاشة العائمة</string>
+    <string name="overlay_channel_description">يبقي الزر العائم ظاهرًا على الشاشة لقفل الجهاز بلمسة واحدة</string>
+    <string name="overlay_notification_title">تم تمكين زر القفل</string>
+    <string name="overlay_notification_text">اضغط على الزر العائم لقفل الشاشة فورًا</string>
+
+    <!-- مسؤول الجهاز -->
+    <string name="device_admin_description">يدير ميزة قفل الشاشة للحفاظ على أمان جهازك</string>
+    <string name="admin_request_explanation">يحتاج ScreenLocker إلى صلاحية مسؤول الجهاز لاستخدام واجهة قفل النظام</string>
+    <string name="admin_enabled_toast">تم تفعيل مسؤول جهاز ScreenLocker</string>
+    <string name="admin_disabled_toast">تم إيقاف مسؤول جهاز ScreenLocker</string>
+
+    <!-- الشاشة الرئيسية: العناوين والأقسام -->
+    <string name="section_permissions">الأذونات</string>
+    <string name="section_how_to">طريقة الاستخدام</string>
+    <string name="section_theme">المظهر</string>
+    <string name="section_language">اللغة</string>
+
+    <!-- الشاشة الرئيسية: المظهر (لون الزر والسمة) -->
+    <string name="theme_card_title">لون الزر والسمة</string>
+    <string name="theme_card_hint">يُطبَّق على الزر العائم وعلى الواجهة كاملة</string>
+
+    <!-- الشاشة الرئيسية: بطاقة حالة الزر العائم -->
+    <string name="overlay_card_title">زر القفل العائم</string>
+    <string name="overlay_state_running">مُمكَّن — اضغط على الزر العائم للقفل</string>
+    <string name="overlay_state_ready">جاهز — شغّل المفتاح للتمكين</string>
+    <string name="overlay_state_blocked">امنح الأذونات أدناه أولًا</string>
+    <string name="overlay_hint_blocked">يتوفر المفتاح بعد منح الإذنين أدناه</string>
+
+    <!-- الشاشة الرئيسية: الأذونات -->
+    <string name="perm_overlay_title">العرض فوق التطبيقات الأخرى</string>
+    <string name="perm_overlay_desc">يسمح للزر بالظهور فوق التطبيقات الأخرى</string>
+    <string name="perm_admin_title">مسؤول الجهاز</string>
+    <string name="perm_admin_desc">يسمح للتطبيق باستخدام واجهة قفل النظام</string>
+    <string name="perm_granted">ممنوح</string>
+    <string name="perm_action_grant">منح</string>
+
+    <!-- الشاشة الرئيسية: خطوات الاستخدام -->
+    <string name="tip_step_1">امنح إذن العرض فوق التطبيقات ليظهر الزر فوق التطبيقات الأخرى</string>
+    <string name="tip_step_2">فعّل مسؤول الجهاز ليتمكن التطبيق من قفل الشاشة</string>
+    <string name="tip_step_3">شغّل المفتاح أعلاه، سيبقى الزر العائم على الشاشة، ولمسة واحدة تكفي للقفل</string>
+
+    <!-- الشاشة الرئيسية: تغيير اللغة -->
+    <string name="language_current">اللغة الحالية</string>
+    <string name="language_action_change">تغيير</string>
+    <string name="language_dialog_title">لغة التطبيق</string>
+    <string name="language_follow_system">اتّباع النظام</string>
+
+    <!-- عام -->
+    <string name="action_cancel">إلغاء</string>
+
+    <!-- تنبيهات النافذة العائمة -->
+    <string name="lock_failed_no_admin">فعّل مسؤول الجهاز داخل التطبيق قبل القفل</string>
+    <string name="lock_failed_generic">فشل القفل، حاول مرة أخرى لاحقًا</string>
+</resources>

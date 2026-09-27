@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 한국어. app_name / device_admin_label 은 "Screen Locker" 로 고정이므로 선언하지 않습니다. -->
+<resources>
+    <!-- 오버레이 포그라운드 서비스 -->
+    <string name="overlay_channel_name">오버레이 화면 잠금 서비스</string>
+    <string name="overlay_channel_description">플로팅 버튼을 항상 표시하여 한 번의 탭으로 화면을 잠급니다</string>
+    <string name="overlay_notification_title">잠금 버튼이 활성화됨</string>
+    <string name="overlay_notification_text">플로팅 버튼을 탭하면 즉시 화면이 잠깁니다</string>
+
+    <!-- 기기 관리자 -->
+    <string name="device_admin_description">화면 잠금 기능을 관리하여 기기를 안전하게 보호합니다</string>
+    <string name="admin_request_explanation">시스템 잠금 API를 호출하려면 ScreenLocker에 기기 관리자 권한이 필요합니다</string>
+    <string name="admin_enabled_toast">ScreenLocker 기기 관리자가 활성화되었습니다</string>
+    <string name="admin_disabled_toast">ScreenLocker 기기 관리자가 비활성화되었습니다</string>
+
+    <!-- 메인 화면: 제목과 구역 -->
+    <string name="section_permissions">권한</string>
+    <string name="section_how_to">사용 방법</string>
+    <string name="section_theme">모양</string>
+    <string name="section_language">언어</string>
+
+    <!-- 메인 화면: 모양 (버튼 색상 + 앱 테마 색상) -->
+    <string name="theme_card_title">버튼 및 테마 색상</string>
+    <string name="theme_card_hint">플로팅 버튼과 앱 전체 색상에 적용됩니다</string>
+
+    <!-- 메인 화면: 플로팅 버튼 상태 카드 -->
+    <string name="overlay_card_title">플로팅 잠금 버튼</string>
+    <string name="overlay_state_running">사용 중 — 플로팅 버튼을 탭하여 잠그세요</string>
+    <string name="overlay_state_ready">준비됨 — 스위치를 켜면 활성화됩니다</string>
+    <string name="overlay_state_blocked">아래 권한을 먼저 허용하세요</string>
+    <string name="overlay_hint_blocked">아래 두 권한을 허용하면 스위치를 사용할 수 있습니다</string>
+
+    <!-- 메인 화면: 권한 항목 -->
+    <string name="perm_overlay_title">다른 앱 위에 표시</string>
+    <string name="perm_overlay_desc">버튼이 다른 앱 위에 표시되도록 허용합니다</string>
+    <string name="perm_admin_title">기기 관리자</string>
+    <string name="perm_admin_desc">앱이 시스템 잠금 API를 호출하도록 허용합니다</string>
+    <string name="perm_granted">허용됨</string>
+    <string name="perm_action_grant">허용</string>
+
+    <!-- 메인 화면: 사용 단계 -->
+    <string name="tip_step_1">다른 앱 위에 표시 권한을 허용하면 버튼이 다른 앱 위에 나타납니다</string>
+    <string name="tip_step_2">기기 관리자를 활성화하면 앱이 시스템 화면 잠금을 호출할 수 있습니다</string>
+    <string name="tip_step_3">위 스위치를 켜면 플로팅 버튼이 항상 표시되며, 탭하여 잠글 수 있습니다</string>
+
+    <!-- 메인 화면: 언어 전환 -->
+    <string name="language_current">현재 언어</string>
+    <string name="language_action_change">변경</string>
+    <string name="language_dialog_title">앱 언어</string>
+    <string name="language_follow_system">시스템 설정 따르기</string>
+
+    <!-- 공통 -->
+    <string name="action_cancel">취소</string>
+
+    <!-- 오버레이 알림 -->
+    <string name="lock_failed_no_admin">먼저 앱에서 기기 관리자를 활성화하세요</string>
+    <string name="lock_failed_generic">화면 잠금에 실패했습니다. 잠시 후 다시 시도하세요</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Deutsch. app_name / device_admin_label bleiben "Screen Locker" und werden hier nicht deklariert. -->
+<resources>
+    <!-- Vordergrunddienst des Overlays -->
+    <string name="overlay_channel_name">Overlay-Sperrdienst</string>
+    <string name="overlay_channel_description">Hält die schwebende Schaltfläche auf dem Bildschirm, um mit einem Tippen zu sperren</string>
+    <string name="overlay_notification_title">Sperrschaltfläche aktiviert</string>
+    <string name="overlay_notification_text">Tippe auf die schwebende Schaltfläche, um den Bildschirm sofort zu sperren</string>
+
+    <!-- Geräteadministrator -->
+    <string name="device_admin_description">Verwaltet die Bildschirmsperre, um dein Gerät zu schützen</string>
+    <string name="admin_request_explanation">ScreenLocker benötigt Geräteadministrator-Rechte, um die Systemsperre aufzurufen</string>
+    <string name="admin_enabled_toast">ScreenLocker-Geräteadministrator aktiviert</string>
+    <string name="admin_disabled_toast">ScreenLocker-Geräteadministrator deaktiviert</string>
+
+    <!-- Hauptansicht: Überschriften und Abschnitte -->
+    <string name="section_permissions">Berechtigungen</string>
+    <string name="section_how_to">Bedienung</string>
+    <string name="section_theme">Darstellung</string>
+    <string name="section_language">Sprache</string>
+
+    <!-- Hauptansicht: Darstellung (Farbe für Schaltfläche und Design) -->
+    <string name="theme_card_title">Farbe für Schaltfläche und Design</string>
+    <string name="theme_card_hint">Gilt für die schwebende Schaltfläche und die gesamte Oberfläche</string>
+
+    <!-- Hauptansicht: Statuskarte der schwebenden Schaltfläche -->
+    <string name="overlay_card_title">Schwebende Sperrschaltfläche</string>
+    <string name="overlay_state_running">Aktiviert – tippe auf die schwebende Schaltfläche zum Sperren</string>
+    <string name="overlay_state_ready">Bereit – Schalter einschalten, um zu aktivieren</string>
+    <string name="overlay_state_blocked">Zuerst die Berechtigungen unten erteilen</string>
+    <string name="overlay_hint_blocked">Der Schalter ist erst nach beiden Berechtigungen nutzbar</string>
+
+    <!-- Hauptansicht: Berechtigungen -->
+    <string name="perm_overlay_title">Über anderen Apps anzeigen</string>
+    <string name="perm_overlay_desc">Erlaubt der Schaltfläche, über anderen Apps zu erscheinen</string>
+    <string name="perm_admin_title">Geräteadministrator</string>
+    <string name="perm_admin_desc">Erlaubt der App, die Systemsperre aufzurufen</string>
+    <string name="perm_granted">Erteilt</string>
+    <string name="perm_action_grant">Erteilen</string>
+
+    <!-- Hauptansicht: Bedienungsschritte -->
+    <string name="tip_step_1">Erteile die Overlay-Berechtigung, damit die Schaltfläche über anderen Apps erscheint</string>
+    <string name="tip_step_2">Aktiviere den Geräteadministrator, damit die App den Bildschirm sperren darf</string>
+    <string name="tip_step_3">Schalte den Schalter oben ein; die schwebende Schaltfläche bleibt sichtbar – ein Tippen sperrt das Gerät</string>
+
+    <!-- Hauptansicht: Sprachwechsel -->
+    <string name="language_current">Aktuelle Sprache</string>
+    <string name="language_action_change">Ändern</string>
+    <string name="language_dialog_title">App-Sprache</string>
+    <string name="language_follow_system">Systemeinstellung folgen</string>
+
+    <!-- Allgemein -->
+    <string name="action_cancel">Abbrechen</string>
+
+    <!-- Hinweise des Overlays -->
+    <string name="lock_failed_no_admin">Aktiviere zuerst den Geräteadministrator in der App</string>
+    <string name="lock_failed_generic">Sperren fehlgeschlagen, bitte später erneut versuchen</string>
+</resources>

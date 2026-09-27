@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 简体中文。app_name / device_admin_label 固定为 "Screen Locker"，此处不声明。 -->
+<resources>
+    <!-- 悬浮窗前台服务 -->
+    <string name="overlay_channel_name">悬浮窗锁屏服务</string>
+    <string name="overlay_channel_description">保持悬浮窗按钮常驻,以便随时一键锁屏</string>
+    <string name="overlay_notification_title">锁屏按钮已启用</string>
+    <string name="overlay_notification_text">点击悬浮按钮即可立即锁屏</string>
+
+    <!-- 设备管理员 -->
+    <string name="device_admin_description">管理锁屏功能，保护您的设备安全</string>
+    <string name="admin_request_explanation">ScreenLocker 需要设备管理员权限才能调用系统锁屏接口</string>
+    <string name="admin_enabled_toast">ScreenLocker 设备管理员已激活</string>
+    <string name="admin_disabled_toast">ScreenLocker 设备管理员已禁用</string>
+
+    <!-- 主界面:标题与分区 -->
+    <string name="section_permissions">权限</string>
+    <string name="section_how_to">使用方式</string>
+    <string name="section_theme">外观</string>
+    <string name="section_language">语言</string>
+
+    <!-- 主界面:外观(按钮底色 + 界面主题色) -->
+    <string name="theme_card_title">按钮与主题色</string>
+    <string name="theme_card_hint">同时改变悬浮按钮底色与界面配色</string>
+
+    <!-- 主界面:悬浮按钮状态卡 -->
+    <string name="overlay_card_title">悬浮锁屏按钮</string>
+    <string name="overlay_state_running">已启用，轻点悬浮按钮即可锁屏</string>
+    <string name="overlay_state_ready">已就绪，打开开关即可启用</string>
+    <string name="overlay_state_blocked">需先完成下方权限授权</string>
+    <string name="overlay_hint_blocked">完成下方两项授权后，开关才可使用</string>
+
+    <!-- 主界面:权限项 -->
+    <string name="perm_overlay_title">悬浮窗权限</string>
+    <string name="perm_overlay_desc">允许按钮显示在其他应用上方</string>
+    <string name="perm_admin_title">设备管理员</string>
+    <string name="perm_admin_desc">允许应用调用系统锁屏接口</string>
+    <string name="perm_granted">已授权</string>
+    <string name="perm_action_grant">去授权</string>
+
+    <!-- 主界面:使用步骤 -->
+    <string name="tip_step_1">授予悬浮窗权限，按钮才能显示在其他应用之上</string>
+    <string name="tip_step_2">激活设备管理员，应用才有权调用系统锁屏</string>
+    <string name="tip_step_3">打开上方开关，悬浮按钮将常驻屏幕，轻点即可锁屏</string>
+
+    <!-- 主界面:语言切换 -->
+    <string name="language_current">当前语言</string>
+    <string name="language_action_change">更改</string>
+    <string name="language_dialog_title">应用语言</string>
+    <string name="language_follow_system">跟随系统</string>
+
+    <!-- 通用 -->
+    <string name="action_cancel">取消</string>
+
+    <!-- 悬浮窗提示 -->
+    <string name="lock_failed_no_admin">请先在应用内激活设备管理员后再锁屏</string>
+    <string name="lock_failed_generic">锁屏失败，请稍后重试</string>
+</resources>

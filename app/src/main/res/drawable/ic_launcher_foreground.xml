@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标前景层:白色电源符号(| O)。
+
+  几何与悬浮窗按钮上的 PowerButtonIcon 保持一致:
+    - 不完整的圆环,顶部留 90° 缺口(屏幕角度 225° ~ 315°,即缺口中心在正上方)
+    - 中央竖线穿过缺口,自圆心上方延伸至圆心附近
+  圆心 (54,54)、半径 23、笔画 7 全部落在 66dp 安全区内,
+  因此无论系统用何种遮罩裁剪都不会被切掉。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 圆环:从缺口右沿 (70.263,37.737) 顺时针走 270° 到缺口左沿 (37.737,37.737) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M70.263,37.737 A23,23 0 1 1 37.737,37.737" />
+
+    <!-- 中央竖线:顶端与外环齐平,下端收在圆心略上方 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M54,31 L54,52" />
+</vector>

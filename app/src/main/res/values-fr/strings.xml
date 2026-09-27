@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Français. app_name / device_admin_label restent "Screen Locker" et ne sont pas déclarés ici. -->
+<resources>
+    <!-- Service de premier plan de la fenêtre flottante -->
+    <string name="overlay_channel_name">Service de verrouillage en superposition</string>
+    <string name="overlay_channel_description">Garde le bouton flottant à l\'écran pour verrouiller en un seul geste</string>
+    <string name="overlay_notification_title">Bouton de verrouillage activé</string>
+    <string name="overlay_notification_text">Touchez le bouton flottant pour verrouiller immédiatement l\'écran</string>
+
+    <!-- Administrateur de l'appareil -->
+    <string name="device_admin_description">Gère le verrouillage de l\'écran pour sécuriser votre appareil</string>
+    <string name="admin_request_explanation">ScreenLocker a besoin des droits d\'administrateur de l\'appareil pour utiliser l\'API de verrouillage du système</string>
+    <string name="admin_enabled_toast">Administrateur de l\'appareil ScreenLocker activé</string>
+    <string name="admin_disabled_toast">Administrateur de l\'appareil ScreenLocker désactivé</string>
+
+    <!-- Écran principal : titres et sections -->
+    <string name="section_permissions">Autorisations</string>
+    <string name="section_how_to">Utilisation</string>
+    <string name="section_theme">Apparence</string>
+    <string name="section_language">Langue</string>
+
+    <!-- Écran principal : apparence (couleur du bouton et du thème) -->
+    <string name="theme_card_title">Couleur du bouton et du thème</string>
+    <string name="theme_card_hint">S\'applique au bouton flottant et à toute l\'interface</string>
+
+    <!-- Écran principal : carte d'état du bouton flottant -->
+    <string name="overlay_card_title">Bouton de verrouillage flottant</string>
+    <string name="overlay_state_running">Activé — touchez le bouton flottant pour verrouiller</string>
+    <string name="overlay_state_ready">Prêt — activez l\'interrupteur pour l\'activer</string>
+    <string name="overlay_state_blocked">Accordez d\'abord les autorisations ci-dessous</string>
+    <string name="overlay_hint_blocked">L\'interrupteur sera disponible après avoir accordé les deux autorisations</string>
+
+    <!-- Écran principal : autorisations -->
+    <string name="perm_overlay_title">Affichage par-dessus les autres apps</string>
+    <string name="perm_overlay_desc">Permet au bouton de s\'afficher par-dessus les autres apps</string>
+    <string name="perm_admin_title">Administrateur de l\'appareil</string>
+    <string name="perm_admin_desc">Permet à l\'app d\'utiliser l\'API de verrouillage du système</string>
+    <string name="perm_granted">Accordée</string>
+    <string name="perm_action_grant">Autoriser</string>
+
+    <!-- Écran principal : étapes d'utilisation -->
+    <string name="tip_step_1">Accordez l\'autorisation de superposition pour que le bouton s\'affiche par-dessus les autres apps</string>
+    <string name="tip_step_2">Activez l\'administrateur de l\'appareil pour que l\'app puisse verrouiller l\'écran</string>
+    <string name="tip_step_3">Activez l\'interrupteur ci-dessus ; le bouton flottant reste à l\'écran, une simple touche suffit pour verrouiller</string>
+
+    <!-- Écran principal : changement de langue -->
+    <string name="language_current">Langue actuelle</string>
+    <string name="language_action_change">Modifier</string>
+    <string name="language_dialog_title">Langue de l\'application</string>
+    <string name="language_follow_system">Suivre le système</string>
+
+    <!-- Commun -->
+    <string name="action_cancel">Annuler</string>
+
+    <!-- Messages de la fenêtre flottante -->
+    <string name="lock_failed_no_admin">Activez d\'abord l\'administrateur de l\'appareil dans l\'app</string>
+    <string name="lock_failed_generic">Échec du verrouillage, veuillez réessayer plus tard</string>
+</resources>

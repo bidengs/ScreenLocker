@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português. app_name / device_admin_label permanecem "Screen Locker" e não são declarados aqui. -->
+<resources>
+    <!-- Serviço em primeiro plano da janela flutuante -->
+    <string name="overlay_channel_name">Serviço de bloqueio em sobreposição</string>
+    <string name="overlay_channel_description">Mantém o botão flutuante na tela para bloquear com um toque</string>
+    <string name="overlay_notification_title">Botão de bloqueio ativado</string>
+    <string name="overlay_notification_text">Toque no botão flutuante para bloquear a tela na hora</string>
+
+    <!-- Administrador do dispositivo -->
+    <string name="device_admin_description">Gerencia o bloqueio de tela para manter seu dispositivo seguro</string>
+    <string name="admin_request_explanation">O ScreenLocker precisa de permissão de administrador do dispositivo para usar a API de bloqueio do sistema</string>
+    <string name="admin_enabled_toast">Administrador do dispositivo ScreenLocker ativado</string>
+    <string name="admin_disabled_toast">Administrador do dispositivo ScreenLocker desativado</string>
+
+    <!-- Tela principal: títulos e seções -->
+    <string name="section_permissions">Permissões</string>
+    <string name="section_how_to">Como usar</string>
+    <string name="section_theme">Aparência</string>
+    <string name="section_language">Idioma</string>
+
+    <!-- Tela principal: aparência (cor do botão e do tema) -->
+    <string name="theme_card_title">Cor do botão e do tema</string>
+    <string name="theme_card_hint">Aplica-se ao botão flutuante e a toda a interface</string>
+
+    <!-- Tela principal: cartão de status do botão flutuante -->
+    <string name="overlay_card_title">Botão de bloqueio flutuante</string>
+    <string name="overlay_state_running">Ativado — toque no botão flutuante para bloquear</string>
+    <string name="overlay_state_ready">Pronto — ligue o interruptor para ativar</string>
+    <string name="overlay_state_blocked">Conceda as permissões abaixo primeiro</string>
+    <string name="overlay_hint_blocked">O interruptor fica disponível após conceder as duas permissões</string>
+
+    <!-- Tela principal: permissões -->
+    <string name="perm_overlay_title">Exibir sobre outros apps</string>
+    <string name="perm_overlay_desc">Permite que o botão apareça sobre outros apps</string>
+    <string name="perm_admin_title">Administrador do dispositivo</string>
+    <string name="perm_admin_desc">Permite que o app use a API de bloqueio do sistema</string>
+    <string name="perm_granted">Concedida</string>
+    <string name="perm_action_grant">Conceder</string>
+
+    <!-- Tela principal: passos de uso -->
+    <string name="tip_step_1">Conceda a permissão de sobreposição para o botão aparecer sobre outros apps</string>
+    <string name="tip_step_2">Ative o administrador do dispositivo para o app poder bloquear a tela</string>
+    <string name="tip_step_3">Ligue o interruptor acima; o botão flutuante fica na tela e um toque bloqueia o dispositivo</string>
+
+    <!-- Tela principal: troca de idioma -->
+    <string name="language_current">Idioma atual</string>
+    <string name="language_action_change">Alterar</string>
+    <string name="language_dialog_title">Idioma do aplicativo</string>
+    <string name="language_follow_system">Seguir o sistema</string>
+
+    <!-- Comum -->
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- Avisos da janela flutuante -->
+    <string name="lock_failed_no_admin">Ative o administrador do dispositivo no app antes de bloquear</string>
+    <string name="lock_failed_generic">Falha ao bloquear, tente novamente mais tarde</string>
+</resources>

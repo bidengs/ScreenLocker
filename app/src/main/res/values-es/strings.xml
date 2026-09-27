@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Español. app_name / device_admin_label se fijan en "Screen Locker" y no se declaran aquí. -->
+<resources>
+    <!-- Servicio en primer plano de la ventana flotante -->
+    <string name="overlay_channel_name">Servicio de bloqueo superpuesto</string>
+    <string name="overlay_channel_description">Mantiene el botón flotante en pantalla para bloquear con un solo toque</string>
+    <string name="overlay_notification_title">Botón de bloqueo activado</string>
+    <string name="overlay_notification_text">Toca el botón flotante para bloquear la pantalla al instante</string>
+
+    <!-- Administrador de dispositivos -->
+    <string name="device_admin_description">Gestiona el bloqueo de pantalla para mantener tu dispositivo seguro</string>
+    <string name="admin_request_explanation">ScreenLocker necesita permisos de administrador del dispositivo para usar la API de bloqueo del sistema</string>
+    <string name="admin_enabled_toast">Administrador de dispositivos de ScreenLocker activado</string>
+    <string name="admin_disabled_toast">Administrador de dispositivos de ScreenLocker desactivado</string>
+
+    <!-- Pantalla principal: títulos y secciones -->
+    <string name="section_permissions">Permisos</string>
+    <string name="section_how_to">Cómo usar</string>
+    <string name="section_theme">Apariencia</string>
+    <string name="section_language">Idioma</string>
+
+    <!-- Pantalla principal: apariencia (color del botón y del tema) -->
+    <string name="theme_card_title">Color del botón y del tema</string>
+    <string name="theme_card_hint">Se aplica al botón flotante y a toda la interfaz</string>
+
+    <!-- Pantalla principal: tarjeta de estado del botón flotante -->
+    <string name="overlay_card_title">Botón de bloqueo flotante</string>
+    <string name="overlay_state_running">Activado: toca el botón flotante para bloquear</string>
+    <string name="overlay_state_ready">Listo: activa el interruptor para habilitarlo</string>
+    <string name="overlay_state_blocked">Concede primero los permisos de abajo</string>
+    <string name="overlay_hint_blocked">El interruptor se habilita al conceder los dos permisos</string>
+
+    <!-- Pantalla principal: permisos -->
+    <string name="perm_overlay_title">Mostrar sobre otras apps</string>
+    <string name="perm_overlay_desc">Permite que el botón aparezca sobre otras apps</string>
+    <string name="perm_admin_title">Administrador del dispositivo</string>
+    <string name="perm_admin_desc">Permite que la app use la API de bloqueo del sistema</string>
+    <string name="perm_granted">Concedido</string>
+    <string name="perm_action_grant">Conceder</string>
+
+    <!-- Pantalla principal: pasos de uso -->
+    <string name="tip_step_1">Concede el permiso de superposición para que el botón aparezca sobre otras apps</string>
+    <string name="tip_step_2">Activa el administrador del dispositivo para que la app pueda bloquear la pantalla</string>
+    <string name="tip_step_3">Activa el interruptor de arriba; el botón flotante permanecerá en pantalla y bastará un toque para bloquear</string>
+
+    <!-- Pantalla principal: cambio de idioma -->
+    <string name="language_current">Idioma actual</string>
+    <string name="language_action_change">Cambiar</string>
+    <string name="language_dialog_title">Idioma de la aplicación</string>
+    <string name="language_follow_system">Seguir el sistema</string>
+
+    <!-- Común -->
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- Avisos de la ventana flotante -->
+    <string name="lock_failed_no_admin">Activa el administrador del dispositivo en la app antes de bloquear</string>
+    <string name="lock_failed_generic">No se pudo bloquear; inténtalo de nuevo más tarde</string>
+</resources>

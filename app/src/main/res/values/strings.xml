@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    默认（兜底）语言：English。
+    设备语言不在下方支持列表内时，回落到本文件。
+-->
+<resources>
+    <!--
+        应用名与标题：在所有语言下固定为 "Screen Locker"。
+        translatable="false" 可防止它被翻译，各语言的 values-* 目录也不必重复声明。
+    -->
+    <string name="app_name" translatable="false">Screen Locker</string>
+
+    <!-- 悬浮窗前台服务 -->
+    <string name="overlay_channel_name">Overlay lock service</string>
+    <string name="overlay_channel_description">Keeps the floating button on screen so you can lock your device with one tap</string>
+    <string name="overlay_notification_title">Lock button enabled</string>
+    <string name="overlay_notification_text">Tap the floating button to lock the screen instantly</string>
+
+    <!-- 设备管理员(被 AndroidManifest 引用) -->
+    <string name="device_admin_label" translatable="false">Screen Locker</string>
+    <string name="device_admin_description">Manages screen locking to keep your device secure</string>
+    <string name="admin_request_explanation">Screen Locker needs device administrator permission to call the system lock API</string>
+    <string name="admin_enabled_toast">ScreenLocker device administrator activated</string>
+    <string name="admin_disabled_toast">ScreenLocker device administrator deactivated</string>
+
+    <!-- 主界面:标题与分区 -->
+    <string name="section_permissions">Permissions</string>
+    <string name="section_how_to">How to use</string>
+    <string name="section_theme">Appearance</string>
+    <string name="section_language">Language</string>
+
+    <!-- 主界面:外观(按钮底色 + 界面主题色) -->
+    <string name="theme_card_title">Button and theme color</string>
+    <string name="theme_card_hint">Applies to the floating button and the whole interface</string>
+
+    <!-- 主界面:悬浮按钮状态卡 -->
+    <string name="overlay_card_title">Floating lock button</string>
+    <string name="overlay_state_running">Enabled — tap the floating button to lock</string>
+    <string name="overlay_state_ready">Ready — turn on the switch to enable</string>
+    <string name="overlay_state_blocked">Grant the permissions below first</string>
+    <string name="overlay_hint_blocked">The switch becomes available once both permissions are granted</string>
+
+    <!-- 主界面:权限项 -->
+    <string name="perm_overlay_title">Display over other apps</string>
+    <string name="perm_overlay_desc">Lets the button appear above other apps</string>
+    <string name="perm_admin_title">Device administrator</string>
+    <string name="perm_admin_desc">Lets the app call the system lock API</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_action_grant">Grant</string>
+
+    <!-- 主界面:使用步骤 -->
+    <string name="tip_step_1">Grant the overlay permission so the button can appear above other apps</string>
+    <string name="tip_step_2">Activate device administrator so the app is allowed to lock the screen</string>
+    <string name="tip_step_3">Turn on the switch above; the floating button stays on screen — tap it to lock</string>
+
+    <!-- 主界面:语言切换 -->
+    <string name="language_current">Current language</string>
+    <string name="language_action_change">Change</string>
+    <string name="language_dialog_title">App language</string>
+    <string name="language_follow_system">Follow system</string>
+
+    <!-- 通用 -->
+    <string name="action_cancel">Cancel</string>
+
+    <!-- 悬浮窗提示 -->
+    <string name="lock_failed_no_admin">Activate device administrator in the app before locking</string>
+    <string name="lock_failed_generic">Lock failed, please try again later</string>
+</resources>

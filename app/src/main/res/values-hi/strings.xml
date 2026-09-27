@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- हिन्दी. app_name / device_admin_label हमेशा "Screen Locker" रहते हैं, यहाँ घोषित नहीं किए गए। -->
+<resources>
+    <!-- फ़्लोटिंग विंडो की फ़ोरग्राउंड सेवा -->
+    <string name="overlay_channel_name">ओवरले लॉक सेवा</string>
+    <string name="overlay_channel_description">एक टैप से लॉक करने के लिए फ़्लोटिंग बटन स्क्रीन पर बनाए रखता है</string>
+    <string name="overlay_notification_title">लॉक बटन सक्षम है</string>
+    <string name="overlay_notification_text">स्क्रीन तुरंत लॉक करने के लिए फ़्लोटिंग बटन पर टैप करें</string>
+
+    <!-- डिवाइस एडमिन -->
+    <string name="device_admin_description">आपके डिवाइस को सुरक्षित रखने के लिए स्क्रीन लॉक प्रबंधित करता है</string>
+    <string name="admin_request_explanation">सिस्टम लॉक API का उपयोग करने के लिए ScreenLocker को डिवाइस एडमिन अनुमति चाहिए</string>
+    <string name="admin_enabled_toast">ScreenLocker डिवाइस एडमिन सक्रिय किया गया</string>
+    <string name="admin_disabled_toast">ScreenLocker डिवाइस एडमिन अक्षम किया गया</string>
+
+    <!-- मुख्य स्क्रीन: शीर्षक और अनुभाग -->
+    <string name="section_permissions">अनुमतियाँ</string>
+    <string name="section_how_to">उपयोग कैसे करें</string>
+    <string name="section_theme">रूप-रंग</string>
+    <string name="section_language">भाषा</string>
+
+    <!-- मुख्य स्क्रीन: रूप-रंग (बटन और थीम का रंग) -->
+    <string name="theme_card_title">बटन और थीम का रंग</string>
+    <string name="theme_card_hint">फ़्लोटिंग बटन और पूरे इंटरफ़ेस पर लागू होता है</string>
+
+    <!-- मुख्य स्क्रीन: फ़्लोटिंग बटन स्थिति कार्ड -->
+    <string name="overlay_card_title">फ़्लोटिंग लॉक बटन</string>
+    <string name="overlay_state_running">सक्षम — लॉक करने के लिए फ़्लोटिंग बटन पर टैप करें</string>
+    <string name="overlay_state_ready">तैयार — सक्षम करने के लिए स्विच चालू करें</string>
+    <string name="overlay_state_blocked">पहले नीचे दी गई अनुमतियाँ दें</string>
+    <string name="overlay_hint_blocked">दोनों अनुमतियाँ देने के बाद ही स्विच काम करेगा</string>
+
+    <!-- मुख्य स्क्रीन: अनुमतियाँ -->
+    <string name="perm_overlay_title">अन्य ऐप्स के ऊपर दिखाएँ</string>
+    <string name="perm_overlay_desc">बटन को अन्य ऐप्स के ऊपर दिखाने देता है</string>
+    <string name="perm_admin_title">डिवाइस एडमिन</string>
+    <string name="perm_admin_desc">ऐप को सिस्टम लॉक API उपयोग करने देता है</string>
+    <string name="perm_granted">अनुमति दी गई</string>
+    <string name="perm_action_grant">अनुमति दें</string>
+
+    <!-- मुख्य स्क्रीन: उपयोग के चरण -->
+    <string name="tip_step_1">ओवरले अनुमति दें ताकि बटन अन्य ऐप्स के ऊपर दिख सके</string>
+    <string name="tip_step_2">डिवाइस एडमिन सक्रिय करें ताकि ऐप स्क्रीन लॉक कर सके</string>
+    <string name="tip_step_3">ऊपर दिया स्विच चालू करें; फ़्लोटिंग बटन स्क्रीन पर बना रहेगा, टैप करने पर लॉक हो जाएगा</string>
+
+    <!-- मुख्य स्क्रीन: भाषा बदलें -->
+    <string name="language_current">वर्तमान भाषा</string>
+    <string name="language_action_change">बदलें</string>
+    <string name="language_dialog_title">ऐप की भाषा</string>
+    <string name="language_follow_system">सिस्टम के अनुसार</string>
+
+    <!-- सामान्य -->
+    <string name="action_cancel">रद्द करें</string>
+
+    <!-- फ़्लोटिंग विंडो के संदेश -->
+    <string name="lock_failed_no_admin">लॉक करने से पहले ऐप में डिवाइस एडमिन सक्रिय करें</string>
+    <string name="lock_failed_generic">लॉक विफल रहा, कृपया बाद में पुनः प्रयास करें</string>
+</resources>
