@@ -1,4 +1,7 @@
 # Screen Locker
+[![Stars](https://img.shields.io/github/stars/bidengs/ScreenLocker?logo=github&style=flat&color=yellow)](https://github.com/bidengs/ScreenLocker)
+[![Forks](https://img.shields.io/github/forks/bidengs/ScreenLocker?logo=github&style=flat&color=blue)](https://github.com/bidengs/ScreenLocker)
+[![Commits](https://img.shields.io/github/commit-activity/t/bidengs/ScreenLocker?logo=github&style=flat&color=red)](https://github.com/bidengs/ScreenLocker)
 
 一个简洁高效的安卓屏幕锁定应用，提供一键锁屏功能，支持多语言和自定义主题。
 
